@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><title>PocketSmart AI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="card"><h1>PocketSmart AI</h1><p>Budget Recommendation Assistant</p>
+<form action="/recommend" method="post">
+<label>Category</label><input name="category" required placeholder="Example: Laptop">
+<label>Budget (₹)</label><input name="budget" type="number" min="1" step="1" required>
+<label>Preferences</label><textarea name="preferences" placeholder="Example: student use, good battery"></textarea>
+<button type="submit">Get Recommendation</button>
+</form></main></body></html>
